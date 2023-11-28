@@ -1,0 +1,4 @@
+Il dato inserito non è un intero. Riprova.
+Il dato inserito non è un intero. Riprova.
+
+Interi inseriti: 4
