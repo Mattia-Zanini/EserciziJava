@@ -95,13 +95,16 @@ public class ArrayUtilClass {
     }
 
     // inserire un elemento
-    public static void insert(int[] v, int vSize, int index, int value) {
+    public static int[] insert(int[] v, int vSize, int index, int value) {
+        if (vSize == v.length)
+            v = ArrayUtilClass.resize(v, vSize + 1);
         if (index < vSize && index >= 0) {
             for (int i = vSize - 2; i >= index; i--)
                 v[i + 1] = v[i];
 
             v[index] = value;
         }
+        return v;
     }
 
     // ricerca del minimo

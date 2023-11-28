@@ -36,14 +36,13 @@ public class ArrayUtilTester {
         System.out.println(ArrayUtilClass.printArray(arr, intSize));
 
         System.out.println("\nChiamo insert:\n");
-        ArrayUtilClass.insert(arr, arr.length, 3, 77);
+        arr = ArrayUtilClass.insert(arr, arr.length, 3, 77);
         intSize++;
         System.out.println(ArrayUtilClass.printArray(arr, intSize));
 
         System.out.println("Il numero minimo è: " + ArrayUtilClass.findMin(arr, intSize));
         System.out.println("Il numero massimo è: " + ArrayUtilClass.findMax(arr, intSize));
 
-        
         int num = 0;
         Scanner input = new Scanner(System.in);
         System.out.println("Che numero vuoi cercare?");
