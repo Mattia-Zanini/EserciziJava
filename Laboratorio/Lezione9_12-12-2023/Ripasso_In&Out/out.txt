@@ -1,0 +1,6 @@
+.
+input
+file di
+è il
+questo
+ciao
