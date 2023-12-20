@@ -2,7 +2,10 @@ import java.util.Scanner;
 
 public class TestSquare {
 	private static Scanner console;
+
 	public static void main(String[] args) {
+		// non è proprio come la consegna chiedeva ma non avevo sbatti di fare lo split
+		// della stringa e di fare il check per ogni valore
 		int x1 = checkInput("Inserisci la posizione x del centro del quadrato 1");
 		int y1 = checkInput("Inserisci la posizione y del centro del quadrato 1");
 		int lato1 = checkInput("Inserisci la dimensione del lato del quadrato 1");
