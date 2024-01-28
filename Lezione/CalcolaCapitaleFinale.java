@@ -17,5 +17,6 @@ public class CalcolaCapitaleFinale {
         a = tastiera.nextDouble();
         capf = imp * (1 + a * i);
         System.out.println("Capitale finale: " + capf);
+        tastiera.close();
     }
 }

@@ -21,5 +21,6 @@ public class AnomaliaScanner {
 
         System.out.println("numero inserito: " + n);
         System.out.println("stringa inserita: " + s);
+        input.close();
     }
 }

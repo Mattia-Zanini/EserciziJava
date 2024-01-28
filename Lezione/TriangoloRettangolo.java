@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.math.*;
 
 public class TriangoloRettangolo {
     public static void main(String[] args) {
@@ -23,6 +22,6 @@ public class TriangoloRettangolo {
             System.out.println("Dati in input errati");
             System.out.println("La lunghezza di entrambi i cateti deve essere maggiore di 0");
         }
-    
+        input.close();
     }
 }

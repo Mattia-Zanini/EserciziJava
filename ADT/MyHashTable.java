@@ -53,7 +53,6 @@ public class MyHashTable implements HashTable {
          }
       }
       return;
-
    }
 
    public Object find(Object key) {
@@ -70,7 +69,6 @@ public class MyHashTable implements HashTable {
          }
       }
       return null;
-
    }
 
    public String toString() {

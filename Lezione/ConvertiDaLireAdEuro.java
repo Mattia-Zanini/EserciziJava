@@ -1,7 +1,6 @@
 
 //importazioni
 import java.util.Scanner;
-import java.math.*;
 
 //intestazione classe
 public class ConvertiDaLireAdEuro {
@@ -20,5 +19,6 @@ public class ConvertiDaLireAdEuro {
 
         // operazioni di input
         System.out.println("Importo in euro: " + impeuro);
+        in.close();
     }// chiusura main
 }

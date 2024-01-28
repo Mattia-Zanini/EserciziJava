@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.math.*;
 
 public class Trapezio {
     public static void main(String[] args) {
@@ -15,5 +14,6 @@ public class Trapezio {
         area = (baseMinore + baseMaggiore) * altezza / 2;
 
         System.out.println("Area: " + area);
+        input.close();
     }
 }

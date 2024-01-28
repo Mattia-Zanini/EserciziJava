@@ -35,5 +35,6 @@ public class AreaTriangolo {
 
         System.out.println("Il perimetro vale: " + p);
         System.out.println("L'area vale: " + S);
+        input.close();
     }
 }

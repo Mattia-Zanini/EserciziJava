@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.math.*;
 
 public class Rettangolo {
     public static void main(String[] args) {
@@ -17,5 +16,6 @@ public class Rettangolo {
         System.out.println("Perimetro: " + perimetro);
         System.out.println("Diagonale: " + diagonale);
         System.out.println("Area: " + area);
+        input.close();
     }
 }

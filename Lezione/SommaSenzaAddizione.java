@@ -36,5 +36,6 @@ public class SommaSenzaAddizione {
 
         System.out.println("la somma è (x): " + x);
         System.out.println("y: " + y);
+        input.close();
     }
 }

@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.math.*;
 
 public class VerficaSeRettangolo {
     public static void main(String[] args) {
@@ -23,5 +22,6 @@ public class VerficaSeRettangolo {
         } else {
             System.out.println("I lati inseriti non sono validi");
         }
+        input.close();
     }
 }

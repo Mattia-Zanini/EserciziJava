@@ -16,5 +16,6 @@ public class Piastrelle {
 
         System.out.println("Numero di piastrelle: " + nTiles);
         System.out.println("Il gap rimanente è di: " + gapRimanente);
+        input.close();
     }
 }

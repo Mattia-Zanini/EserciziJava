@@ -21,5 +21,6 @@ public class VerificaPeso {
             System.out.println("Normopeso");
         if (peso < pesoIdeale)
             System.out.println("Sottopeso");
+        input.close();
     }
 }
